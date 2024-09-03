@@ -44,6 +44,17 @@
        color: rgb(247, 102, 102);
        font-size: 50px;
     }
+.corazon {
+            color: #ffffff; /* Color blanco para mayor contraste */
+            font-size: 3em;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .corazon:hover {
+            transform: scale(1.2);
+            color: #ff3366; /* Cambio de color al pasar el ratón */
+        }
   
   /* styles */
   /* TODO: Cambiar la fuente
