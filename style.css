@@ -103,7 +103,7 @@
     z-index: -1;
     background: white;
     width: 430px;
-    height: 315px;
+    height: 330px;
   
     transition: all .75s;
   }
@@ -112,7 +112,7 @@
     border-left: 220px solid #ff989e;
     border-right: 220px solid #ff989e;
     border-top: 100px solid transparent;
-    border-bottom: 280px solid #ff858a;
+    border-bottom: 290px solid #ff858a;
     
     
   }
@@ -150,7 +150,7 @@
       top: 0;
     }
     100% {
-      top: -330px;
+      top: -350px;
     }
   }
   
