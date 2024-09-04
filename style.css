@@ -83,8 +83,8 @@
   
   .cover {
     position: absolute;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
     border-top: 100px solid #fe3334;
     border-bottom: 100px solid transparent;
   
@@ -109,10 +109,10 @@
   }
   
   .letter {
-    border-left: 200px solid #ff989e;
-    border-right: 200px solid #ff989e;
+    border-left: 220px solid #ff989e;
+    border-right: 220px solid #ff989e;
     border-top: 100px solid transparent;
-    border-bottom: 260px solid #ff858a;
+    border-bottom: 280px solid #ff858a;
     
     
   }
