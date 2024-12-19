@@ -40,8 +40,9 @@
 }
 
   .amor{
+      background-color: #c800ff6c;
        right: 350px;
-       color: rgb(99, 0, 148);
+       color: rgb(245, 245, 245);
        font-size: 50px;
     }
 .corazon {
@@ -66,7 +67,8 @@
   } */
   
   body {
-    background-color: #ac62de;
+    background-image: url("tat.jpg");
+    background-attachment: fixed;
   }
   
   main {
