@@ -41,10 +41,12 @@
 
   .amor{
        right: 350px;
-       color: rgb(247, 102, 102);
+       color: rgb(99, 0, 148);
        font-size: 50px;
     }
 .corazon {
+            display: flex;
+            align-items: center;
             color: #ffffff; /* Color blanco para mayor contraste */
             font-size: 3em;
             cursor: pointer;
@@ -53,7 +55,7 @@
 
         .corazon:hover {
             transform: scale(1.2);
-            color: #ff3366; /* Cambio de color al pasar el ratón */
+            color: #000000; /* Cambio de color al pasar el ratón */
         }
   
   /* styles */
@@ -64,7 +66,7 @@
   } */
   
   body {
-    background-color: #fad7df;
+    background-color: #ac62de;
   }
   
   main {
@@ -85,7 +87,7 @@
     position: absolute;
     border-left: 220px solid transparent;
     border-right: 220px solid transparent;
-    border-top: 100px solid #fe3334;
+    border-top: 100px solid #000000;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -109,10 +111,10 @@
   }
   
   .letter {
-    border-left: 220px solid #ff989e;
-    border-right: 220px solid #ff989e;
+    border-left: 220px solid #75007d;
+    border-right: 220px solid #75007d;
     border-top: 100px solid transparent;
-    border-bottom: 290px solid #ff858a;
+    border-bottom: 290px solid #a748c2;
     
     
   }
@@ -122,17 +124,17 @@
     gap: 5rem;
   
     & button {
-      color: #ff3234;
+      color: #75007d;
       font-weight: 600;
       border-radius: 3px;
-      background: #fad7df;
+      background: #a748c2;
       padding: 0.5rem 1rem;
-      border: 1px solid #fe3334;
+      border: 1px solid #000000;
       cursor: pointer;
     }
   
     & button:hover {
-      background: #ff989e;
+      background: #905496;
       color: white;
     }
   }
@@ -150,7 +152,7 @@
       top: 0;
     }
     100% {
-      top: -350px;
+      top: -270px;
     }
   }
   
